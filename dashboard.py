@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Cargar los datos
-data = pd.read_excel(r'C:\Users\Rober\Desktop\Vivienda Digna\Reporte (3).xlsx')
+data = pd.read_excel(r'Reporte (3).xlsx')
 
 # Crear nuevas columnas para categorizar las cuentas
 data['Categoria'] = 'Otros'

@@ -14,8 +14,8 @@ data.loc[data['Cuenta'].str.contains('Puntuales|Socios|Muni|Ingresos|Interes|Cob
 st.title("Dashboard de la Empresa")
 
 # Mostrar los datos en una tabla
-st.subheader("Datos de la Empresa")
-st.write(data)
+'''st.subheader("Datos de la Empresa")
+st.write(data)'''
 
 # Gráfico interactivo de pastel para la categoría Gastos en Personal
 st.subheader("Diagrama de Pastel: Gastos en Personal")

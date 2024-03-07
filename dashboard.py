@@ -2,6 +2,17 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+
+def presentacion():
+    st.title('Bienvenidos a mi API para el Proyecto Individual Nº1 del Bootcamp Henry (Data Science)')
+    st.write("Mi nombre es Robertino Garcia, alumno de Henry perteneciente al Cohorte Nº 17 (Full-Time)")
+    st.write("[Link FastAPI Steam (/docs)](https://pi-ml-steam1.onrender.com/docs)")
+    st.write("[Link del repositorio de GitHub](https://github.com/RobertinoS/PI_ML_OPS-Steam)")
+    st.write("[Mi perfil de Linkedin](https://www.linkedin.com/in/robertino-pablo-garc%C3%ADa-sanguedolce-aa9306229/)")
+
+presentacion()
+
+
 # Cargar los datos
 data = pd.read_excel('Reporte.xlsx')
 
